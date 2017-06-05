@@ -8,7 +8,7 @@ Para correr este ejemplo ejecutar:
 mvn test
 ```
 
-# Cómo agregar un test
+## Cómo agregar un test
 
 - Agregar una feature test en ```src/test/resources/features/*.features```
 - Mappear los tests en ```src/test/java/fiuba/*Test.java``` (correr ```mvn test``` para instrucciones)
