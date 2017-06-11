@@ -45,7 +45,7 @@ formatter.match({
   "location": "DebitoSteps.que_mi_caja_de_ahorro_tiene_un_saldo_de_pesos(int)"
 });
 formatter.result({
-  "duration": 75151394,
+  "duration": 78426329,
   "status": "passed"
 });
 formatter.match({
@@ -58,7 +58,7 @@ formatter.match({
   "location": "DebitoSteps.cuando_debito_pesos(int)"
 });
 formatter.result({
-  "duration": 142470,
+  "duration": 143085,
   "status": "passed"
 });
 formatter.match({
@@ -71,7 +71,7 @@ formatter.match({
   "location": "DebitoSteps.el_saldo_final_es_de_pesos(int)"
 });
 formatter.result({
-  "duration": 1809285,
+  "duration": 1814360,
   "status": "passed"
 });
 formatter.scenario({
@@ -107,7 +107,7 @@ formatter.match({
   "location": "DebitoSteps.que_mi_caja_de_ahorro_tiene_un_saldo_de_pesos(int)"
 });
 formatter.result({
-  "duration": 115475,
+  "duration": 103688,
   "status": "passed"
 });
 formatter.match({
@@ -120,7 +120,7 @@ formatter.match({
   "location": "DebitoSteps.cuando_debito_pesos(int)"
 });
 formatter.result({
-  "duration": 123372,
+  "duration": 126467,
   "status": "passed"
 });
 formatter.match({
@@ -133,7 +133,7 @@ formatter.match({
   "location": "DebitoSteps.la_operacion_es_rechazada_y_el_saldo_final_es_pesos(int)"
 });
 formatter.result({
-  "duration": 81145,
+  "duration": 106378,
   "status": "passed"
 });
 formatter.uri("user_story.feature");
@@ -177,21 +177,21 @@ formatter.match({
   "location": "EmpleadoSteps.un_empleado_y_una_tarea_asignado()"
 });
 formatter.result({
-  "duration": 228527,
+  "duration": 155919,
   "status": "passed"
 });
 formatter.match({
   "location": "EmpleadoSteps.el_empleado_cambia_el_estado_de_la_tarea()"
 });
 formatter.result({
-  "duration": 52145,
+  "duration": 40914,
   "status": "passed"
 });
 formatter.match({
   "location": "EmpleadoSteps.la_tarea_queda_con_el_estado_actualizado()"
 });
 formatter.result({
-  "duration": 42333,
+  "duration": 38953,
   "status": "passed"
 });
 formatter.scenario({
@@ -221,21 +221,21 @@ formatter.match({
   "location": "EmpleadoSteps.un_empleado_y_una_tarea_que_no_le_pertenece()"
 });
 formatter.result({
-  "duration": 47103,
+  "duration": 45452,
   "status": "passed"
 });
 formatter.match({
   "location": "EmpleadoSteps.el_empleado_cambia_el_estado_de_la_tarea()"
 });
 formatter.result({
-  "duration": 26951,
+  "duration": 21125,
   "status": "passed"
 });
 formatter.match({
   "location": "EmpleadoSteps.la_tarea_queda_con_el_estado_anterior()"
 });
 formatter.result({
-  "duration": 42698,
+  "duration": 25360,
   "status": "passed"
 });
 });

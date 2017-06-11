@@ -23,10 +23,8 @@ public class EmpleadoSteps {
     @Dado("^un empleado y una tarea asignada$")
     public void un_empleado_y_una_tarea_asignado() throws Throwable {
         this.empleado = new Empleado();
-        LinkedList<Empleado> empleados = new LinkedList<>();
-        empleados.add(this.empleado);
         this.tarea = new Tarea(ESTADO_INIT);
-        tarea.asignar(empleados);
+        tarea.asignar(empleado);
     }
 
     @Cuando("^el empleado cambia el estado de la tarea$")

@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="0.077863">
-<testcase classname="Debito de fondos" name="Caja de ahorro con saldo suficiente" time="0.077103">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="0.081049">
+<testcase classname="Debito de fondos" name="Caja de ahorro con saldo suficiente" time="0.080384">
 <system-out><![CDATA[Dado que mi caja de ahorro tiene un saldo de "100" pesos....................passed
 Cuando cuando debito "50" pesos.............................................passed
 Entonces el saldo final es de "50" pesos....................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Debito de fondos" name="Caja de ahorro sin saldo suficiente" time="0.00032">
+<testcase classname="Debito de fondos" name="Caja de ahorro sin saldo suficiente" time="0.000337">
 <system-out><![CDATA[Dado que mi caja de ahorro tiene un saldo de "10" pesos.....................passed
 Cuando cuando debito "20" pesos.............................................passed
 Entonces la operacion es rechazada y el saldo final es "10" pesos...........passed
 ]]></system-out>
 </testcase>
-<testcase classname="Empleado" name="Un empleado cambia el estado de una tarea" time="0.000323">
+<testcase classname="Empleado" name="Un empleado cambia el estado de una tarea" time="0.000236">
 <system-out><![CDATA[Dado un empleado y una tarea asignada.......................................passed
 Cuando el empleado cambia el estado de la tarea.............................passed
 Entonces la tarea queda con el estado actualizado...........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Empleado" name="Un empleado intenta cambiar el estado de una tarea que no le pertenece" time="0.000117">
+<testcase classname="Empleado" name="Un empleado intenta cambiar el estado de una tarea que no le pertenece" time="0.000092">
 <system-out><![CDATA[Dado un empleado y una tarea que no le pertenece............................passed
 Cuando el empleado cambia el estado de la tarea.............................passed
 Entonces la tarea queda con el estado anterior..............................passed

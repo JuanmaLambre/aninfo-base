@@ -7,22 +7,20 @@ import java.util.Collection;
 
 public class Tarea {
 
-    private List<Empleado> asignados;
+    private Empleado asignado;
     private Estado estado;
 
     
     public Tarea(Estado estado) {
         this.estado = estado;
-        this.asignados = new LinkedList<>();
     }
 
-    public void asignar(Collection<Empleado> empleados) {
-        asignados.clear();
-        asignados.addAll(empleados);
+    public void asignar(Empleado empleado) {
+        asignado = empleado;
     }
 
     public void cambiarEstado(Estado nuevoEstado, Empleado quien) {
-        if (asignados.contains(quien))
+        if (asignado == quien)
             this.estado = nuevoEstado;
     }
 

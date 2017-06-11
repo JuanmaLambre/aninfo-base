@@ -1,6 +1,6 @@
-/home/juanma/workplace/aninfo/proyecto-base-memo1/src/main/java/fiuba/Estado.java
-/home/juanma/workplace/aninfo/proyecto-base-memo1/src/main/java/fiuba/FachadaBanco.java
-/home/juanma/workplace/aninfo/proyecto-base-memo1/src/main/java/fiuba/CajaDeAhorro.java
-/home/juanma/workplace/aninfo/proyecto-base-memo1/src/main/java/fiuba/SaldoIsuficienteException.java
-/home/juanma/workplace/aninfo/proyecto-base-memo1/src/main/java/fiuba/Tarea.java
-/home/juanma/workplace/aninfo/proyecto-base-memo1/src/main/java/fiuba/Empleado.java
+/home/juanma/workplace/aninfo/aninfo-base/src/main/java/fiuba/CajaDeAhorro.java
+/home/juanma/workplace/aninfo/aninfo-base/src/main/java/fiuba/SaldoIsuficienteException.java
+/home/juanma/workplace/aninfo/aninfo-base/src/main/java/fiuba/FachadaBanco.java
+/home/juanma/workplace/aninfo/aninfo-base/src/main/java/fiuba/Estado.java
+/home/juanma/workplace/aninfo/aninfo-base/src/main/java/fiuba/Tarea.java
+/home/juanma/workplace/aninfo/aninfo-base/src/main/java/fiuba/Empleado.java
